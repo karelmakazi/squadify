@@ -1,29 +1,11 @@
-# Fullstack boilerplate
+# Squadify 
 
-## Getting Started
+Welcome to Squadify, an attempt to streamline the quick creation of Student Teams for projects. While still in it's infancy, the final project is intended to retain a student's team assignment history as well, and use that to ensure fresh faces each week.
 
-### From the Github UI
-See the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to use Github's feature to create a new repo from a template.
 
-### From the command line
+### Invitation
+This project is equal parts a problem solving exercise, and a learning experience. Please feel free to contribute either code or advice when and where you feel the need to do so!
 
-```
-git clone https://github.com/dev-academy-challenges/boilerplate-fullstack [your-project-name]
-cd [your-project-name]
-npm install # to install dependencies
-npm run dev # to start the dev server
-```
 
 You can find the server running on [http://localhost:3000](http://localhost:3000).
 
-## Details
-
-This repo includes:
-
-* a single, simple API endpoint (`/api/v1/fruits`)
-* a single React component (`<App />`)
-* an example database module (`server/db/fruits.js`)
-* an API client module (`client/apis/fruits.js`)
-* configuration for Jest and Enzyme (including JSDOM)
-* configuration for server-side debugging in VS Code
-* a single client-side test (`client/components/App.test.js`)
