@@ -1,6 +1,6 @@
 # Squadify 
 
-Welcome to Squadify, an attempt to streamline the quick creation of Student Teams for projects. While still in it's infancy, the final project is intended to retain a student's team assignment history as well, and use that to ensure fresh faces each week.
+Welcome to Squadify, an attempt to streamline the quick creation of Student Teams for projects. While still in its infancy, the final project is intended to retain a student's team assignment history as well, and use that to ensure fresh faces each week.
 
 
 ### Invitation
