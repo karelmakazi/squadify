@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux'
 
-import fruits from './fruits'
+import cohortPool from './cohortPool'
 
 export default combineReducers({
-  fruits
+  cohortPool
 })

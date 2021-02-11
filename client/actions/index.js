@@ -1,20 +1,8 @@
-import { getFruits } from '../apis/fruits'
+export const UPDATE_COHORT_POOL = 'UPDATE_COHORT_POOL'
 
-export const SET_FRUITS = 'SET_FRUITS'
-
-export function setFruits (fruits) {
+export function updateCohortPool (selected) {
   return {
-    type: SET_FRUITS,
-    fruits
-  }
-}
-
-export function fetchFruits () {
-  return dispatch => {
-    return getFruits()
-      .then(fruits => {
-        dispatch(setFruits(fruits))
-        return null
-      })
+    type: UPDATE_COHORT_POOL,
+    selected
   }
 }
