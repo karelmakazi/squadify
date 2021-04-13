@@ -22,11 +22,11 @@ function setCohortPool (currentTeam, dispatch) {
 function Team ({ teamName }) {
   const dispatch = useDispatch()
   const [currentRoster, setTeamRoster] = useState([])
-  const cohortAvailablePool = useSelector((state) => state.cohortPool)
+  // const cohortAvailablePool = useSelector((state) => state.cohortPool)
 
-  useEffect(() => {
-    setCohortPool(currentRoster, dispatch)
-  }, [currentRoster])
+  // useEffect(() => {
+  //   setCohortPool(currentRoster, dispatch)
+  // }, [currentRoster])
 
   const selectedTeam = createIntialTeam(4, cohortAvailablePool, setTeamRoster)
 
